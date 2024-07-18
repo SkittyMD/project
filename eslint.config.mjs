@@ -19,10 +19,13 @@ export default [
     {
         rules: {
             'react/jsx-indent': [2, 4],
-            'react/jsx-indent-props': [2, 4], 
-            'indent': ['error', 4], 
-            'no-tabs': 0, 
-            'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.tsx'] }],
+            'react/jsx-indent-props': [2, 4],
+            'indent': ['error', 4],
+            'no-tabs': 0,
+            'react/jsx-filename-extension': [
+                2,
+                { extensions: ['.js', '.jsx', '.tsx'] }
+            ],
             'import/no-unresolved': 'off',
             'import/prefer-default-export': 'off',
             'no-unused-vars': 'warn',
@@ -35,7 +38,14 @@ export default [
             'import/extensions': 'off',
             'import/no-extraneous-dependencies': 'off',
             'react/no-deprecated': 'warn',
-            'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttribute: ['label', 'alt'] }],
+            'i18next/no-literal-string': [
+                'error',
+                {
+                    markupOnly: true,
+                    ignoreAttribute: ['label', 'alt']
+                }
+            ],
+            'max-len': ['error', { ignoreComments: true, tabWidth: 4 }]
         },
     }
 ];

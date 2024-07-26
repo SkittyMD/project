@@ -4,5 +4,8 @@
   "Главная страница": "Home page",
   "О сайте": "About us",
   "Язык": "English",
-  "Переключатель": "Toggle"
+  "Переключатель": "Toggle",
+  "Страница не найдена": "Page not found",
+  "Произошла непредвиденная ошибка": "An unexpected error occurred",
+  "Обновить страницу": "Reload page"
 }

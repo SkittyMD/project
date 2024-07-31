@@ -1,16 +1,16 @@
-import { classNames } from "./classNames";
+import { classNames } from "shared/lib/classNames/classNames";
 
 describe('classNames', () => {
-    test('with only first param', () => {
+    test('With only first param', () => {
         expect(classNames('someClass')).toBe('someClass')
     });
 
-    test('with additional param', () => {
+    test('With additional param', () => {
         const expected = 'someClass class1 class2'
         expect(classNames('someClass', {}, ['class1', 'class2'])).toBe(expected)
     });
 
-    test('with mods', () => {
+    test('With mods', () => {
         const expected = 'someClass class1 class2 hovered scrollable'
         expect(classNames(
             'someClass',

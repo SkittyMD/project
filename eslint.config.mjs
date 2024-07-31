@@ -45,7 +45,7 @@ export default [
                     ignoreAttribute: ['label', 'alt']
                 }
             ],
-            'max-len': ['error', { ignoreComments: true, tabWidth: 4 }]
+            'max-len': ['error', { ignoreComments: true, tabWidth: 4, code: 100 }]
         },
     }
 ];
